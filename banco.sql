@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Set-2026 às 16:42
+-- Tempo de geração: 10-Set-2026 às 16:40
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -42,11 +42,11 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id`, `nome`, `descricao`, `preco`, `quantidade`) VALUES
-(2, 'Teclado Mecânico RGB', 'Teclado mecânico switch azul com retroiluminação RGB', '249.00', 10),
-(3, 'Mouse Sem Fio Ergoclick', 'Mouse óptico sem fio 1600 DPI com conexão USB', '79.90', 15),
-(5, 'Monitor Gamer 24', 'Monitor LED Full HD 144Hz 1ms HDMI/DisplayPort', '899.90', 8),
-(8, 'Mesa para Computador Ergônoma', 'Mesa de escritório em MDF com suporte para CPU e passa-cabos', '350.00', 5),
-(9, 'Cadeira de Escritório Giratória', 'Cadeira ergonômica com regulagem de altura e encosto em rede', '420.00', 7);
+(1, 'Teclado Mecânico RGB', 'Teclado mecânico switch azul com retroiluminação RGB', '250.00', 10),
+(2, 'Mouse Sem Fio Ergoclick', 'Mouse óptico sem fio 1600 DPI com conexão USB', '79.90', 15),
+(3, 'Monitor Gamer 24', 'Monitor LED Full HD 144Hz 1ms HDMI/DisplayPort', '899.90', 8),
+(4, 'Mesa para Computador Ergônoma', 'Mesa de escritório em MDF com suporte para CPU e passa-cabos', '350.00', 9),
+(5, 'Cadeira de Escritório Giratória', 'Cadeira ergonômica com regulagem de altura e encosto em rede', '420.00', 9);
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de tabela `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
