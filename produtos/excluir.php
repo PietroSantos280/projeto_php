@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $sql = "DELETE FROM produtos WHERE id = '$id'";
     mysqli_query($conexao, $sql);
 
+    $_SESSION['mensagem'] = "Produto excluído com sucesso!";
     header('Location: listar.php');
     exit;
 } else {
